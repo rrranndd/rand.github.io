@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+
+    <script>
+        function openKota(namakota) {
+         var i;
+         var x = document.getElementsByClassName("kota");
+         for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+         }
+         document.getElementById(namakota).style.display = "block";
+        }
+    </script>
+
+</head>
+<body style="background-color: black;">
+    <img src="css/banner.jpg" style="width: 100%;">
+    <div class="w3-container">
+    </div>
+    <div class="w3-bar w3-dark-grey">
+        <button class="w3-bar-item w3-button" onclick="openKota('about')">ABOUT</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('new')">NEW ARRIVAL</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('contact')">CONTACT</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('profile')">PROFILE</button>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">LIST WEAPON</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-dark-grey">
+                <button class="w3-bar-item w3-button" onclick="openKota('sub')">SUB-MACHINE</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('assa')">ASSAULT-RIFLE</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('sniper')">SNIPER-RIFLE</button>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="w3-container kota w3-animate-zoom" style="display:none">
+        <p>
+            <img src="css/mamat.jpeg" style="width: 20%;">
+            <p style="color: white;">
+                Welcome to Mamat Gunshop, your trusted destination for all your firearm needs.
+            </p>
+            <br>
+            <p style="color: yellow;">
+                "At Mamat Gunshop, we are dedicated to providing responsible gun owners with the highest quality 
+                firearms and accessories while promoting safety, education, and responsible gun ownership."
+            </p>
+        </p>
+    </div>
+    <div id="new" class="w3-container kota" style="display:none">
+        <p>
+            <center>
+                <img src="css/senjata1.png">
+                <h2><s style="color: rgb(95, 94, 94);">$2,895.00</s>&nbsp; <label style="color: white;">$1,999.00</label></h2>
+            </center>
+        </p>
+    </div>
+    <div id="contact" class="w3-container kota" style="display:none">
+        <a href="https://www.google.com/maps/search/mamat+gunshop/@-5.2330966,105.2354854,7z/data=!3m1!4b1?entry=ttu" style="color: rgb(4, 115, 189); text-decoration: none;"><h3><b>MAPS</b></h3></a>
+        <h3 style="color: rgb(194, 194, 1);">EMAIL : mamatgunshop@gmail.com</h3>
+        <h3 style="color: rgb(194, 194, 1);">No Telp : +62 345 678</h3>
+    </div>
+    <div id="profile" class="w3-container kota" style="display:none">
+        <center>
+            <p>
+                <img src="css/rand.jpg" style="width: 20%;">
+                <table style="color: white;">
+                    <tr>
+                        <td>NIM</td>
+                        <td>:</td>
+                        <td>10123143</td>
+                    </tr>
+                    <tr>
+                        <td>NAMA</td>
+                        <td>:</td>
+                        <td>RANDI ADITTIAWAN</td>
+                    </tr>
+                    <tr>
+                        <td>KELAS</td>
+                        <td>:</td>
+                        <td>IF-4</td>
+                    </tr>
+                </table>
+            </p>
+        </center>
+    </div>
+    <div id="sub" class="w3-container kota" style="display:none">
+        <p>
+            <center>
+                <a href="#">
+                    <img src="css/sub1-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$599.00</s>&nbsp; <label style="color: white;">$299.00</label></h2>
+                </a>
+                <hr>
+                <a href="#">
+                    <img src="css/sub2-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$599.00</s>&nbsp; <label style="color: white;">$299.00</label></h2>
+                </a>
+                <hr>
+                <a href="#">
+                    <img src="css/sub3-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$599.00</s>&nbsp; <label style="color: white;">$299.00</label></h2>
+                </a>
+                <hr>
+                <a href="#">
+                    <img src="css/sub4-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$599.00</s>&nbsp; <label style="color: white;">$299.00</label></h2>
+                </a>
+                <hr>
+            </center>
+        </p>
+    </div>
+    <div id="assa" class="w3-container kota" style="display:none">
+        <p>
+            <center>
+                <a href="#">
+                    <img src="css/assa1-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$899.00</s>&nbsp; <label style="color: white;">$599.00</label></h2>
+                </a>
+                <hr>
+                <a href="#">
+                    <img src="css/assa2-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$899.00</s>&nbsp; <label style="color: white;">$599.00</label></h2>
+                </a>
+                <hr>
+                <a href="#">
+                    <img src="css/assa3-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$899.00</s>&nbsp; <label style="color: white;">$599.00</label></h2>
+                </a>
+                <hr>
+                <a href="#">
+                    <img src="css/assa4-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$899.00</s>&nbsp; <label style="color: white;">$599.00</label></h2>
+                </a>
+                <hr>
+            </center>
+        </p>
+    </div>
+    <div id="sniper" class="w3-container kota" style="display:none">
+        <p>
+            <center>
+                <a href="#">
+                    <img src="css/snip1-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$1.999.00</s>&nbsp; <label style="color: white;">$1.599.00</label></h2>
+                </a>
+                <hr>
+                <a href="#">
+                    <img src="css/snip2-removebg-preview.png">
+                    <h2><s style="color: rgb(95, 94, 94);">$1.999.00</s>&nbsp; <label style="color: white;">$1.599.00</label></h2>
+                </a>
+                <hr>
+            </center>
+        </p>
+    </div>
+</body>
+</html>
